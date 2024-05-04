@@ -99,6 +99,7 @@ def show_app_feature():
                         my_dialog()
                 ```            
                 """)
+    st.divider()
 
     st.header(":blue-background[Markdown Background Colors for Text:]")
     st.markdown(
