@@ -79,7 +79,7 @@ def show_app_feature():
     st.write("- Dialog functions allow for the insertion of modal dialogs into the app.")
     st.write("- Modal dialogs can accept arguments and interact with Session State and other Streamlit elements.")
     st.write("- Users can dismiss modal dialogs by clicking outside, pressing 'ESC', or using the close button. Dismissing a dialog does not trigger an app rerun.")
-    st.write("Example:")
+    st.subheader("Example:")
     st.markdown("""           
                 ```python
                 import streamlit as st
